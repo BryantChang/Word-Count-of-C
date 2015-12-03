@@ -1,5 +1,5 @@
-all:word_count
-word_count:main.c word_manager.o get_word.o
+all:wordcount
+wordcount:main.c word_manager.o get_word.o
 	gcc  main.c word_manager.o get_word.o -o $@
 word_manager.o:word_manager.c
 	gcc -c  word_manager.c -o $@
