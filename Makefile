@@ -7,4 +7,4 @@ get_word.o:get_word.c
 	gcc -c  get_word.c -o $@
 clean:
 	rm -rf *.o
-	rm -rf word_count
+	rm -rf wordcount
